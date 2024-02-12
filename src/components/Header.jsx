@@ -183,7 +183,7 @@ const Header = () => {
                     <HashLink to="/page4#pageTop4">Rust vs python</HashLink>
                 </li>
             </ul>
-            <button className="openbtn1" onClick={buttonClick} open={open}>
+            <button className="openbtn1" onClick={buttonClick} open={open} aria-label="Hamburger Menu Button">
                 <span></span>
                 <span></span>
                 <span></span>
