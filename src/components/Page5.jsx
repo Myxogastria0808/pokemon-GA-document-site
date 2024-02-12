@@ -277,7 +277,9 @@ const Page5 = () => {
                 <p>Search past generations</p>
                 <div className="divFlex">
                     <input ref={inputNum}></input>
-                    <button onClick={search}>search</button>
+                    <button onClick={search} aria-label="Search Button">
+                        search
+                    </button>
                 </div>
                 {badnum ? <p className="alert">無効な値です</p> : ''}
                 <div className="blackBox">
@@ -301,7 +303,9 @@ const Page5 = () => {
                 <p>Details of pokemon</p>
                 <div className="divFlex">
                     <input ref={inputPoke}></input>
-                    <button onClick={searchPoke}>search</button>
+                    <button onClick={searchPoke} aria-label="Search Button">
+                        search
+                    </button>
                 </div>
                 {badpoke ? <p className="alert">無効な値です</p> : ''}
                 <div className="blackBox">

@@ -68,7 +68,9 @@ const PageCard = (props) => {
                 <h1>{props.title}</h1>
                 <Lang className={props.langClass}>{props.lang}</Lang>
                 <Text>{props.text}</Text>
-                <button className={props.button}>{props.buttonText}</button>
+                <button className={props.button} aria-label="Card Button">
+                    {props.buttonText}
+                </button>
             </div>
         </PageCardDiv>
     );

@@ -72,7 +72,7 @@ const Top = () => {
                 The pokémon battle simulator <br />
                 using genetic algorithms
             </h1>
-            <button>
+            <button aria-label="Get Started Button">
                 <HashLink to="/page5">Get Started ＞</HashLink>
             </button>
         </TopDiv>
